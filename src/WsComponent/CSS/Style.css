@@ -1,0 +1,65 @@
+:root {
+    --bg-color-light: #ffffff;
+    --text-color-light: #000000;
+    --bg-color-dark: #000000;
+    --text-color-dark: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.PersonBox {
+    display: block;
+    max-width: 50rem;
+    margin: auto;
+    text-align: center;
+    box-shadow: 1px 1px 6px gray;
+}
+
+.idCards {
+    max-width: 24rem;
+    box-shadow: 1px 1px 6px gray;
+    display: block;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.idCards span {
+    color: green;
+}
+
+.idCards i {
+    color: yellow;
+}
+
+.btn {
+    padding: 0.2rem;
+    color: black;
+    font-weight: 700;
+}
+
+
+.form {
+    text-align: center;
+    width: 30rem;
+    border: 1px solid red;
+    display: block;
+    margin: 5rem auto;
+}
+.form input{
+    border: 2px solid black;
+}
